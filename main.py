@@ -24,8 +24,8 @@ def sum_of_squares_of_even(even_int_list: List[int]) -> int:
     The sum of the squares of all even numbers in the l
     ist.
     """
-    # return sum([x*x for x in even_int_list])
-    pass
+    return sum([x*x for x in even_int_list])
+    # pass
     
 # Main function
 def main():
